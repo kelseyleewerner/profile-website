@@ -2,6 +2,10 @@
   background-color: #6667ab;
 }
 
+.primary-navbar .navbar-brand {
+  font-size: 1.75rem;
+}
+
 .primary-navbar .nav-item .nav-link {
   color: rgba(255, 255, 255, 0.9);
 }
