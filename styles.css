@@ -10,7 +10,7 @@
   color: rgba(255, 255, 255, 0.9);
 }
 
-section {
+.profile-section {
   scroll-margin-top: 120px;
 }
 
@@ -20,4 +20,8 @@ section {
 
 .profile-image {
   border-radius: 200px;
+}
+
+.skills-card {
+  background-color: #6667ab;
 }
