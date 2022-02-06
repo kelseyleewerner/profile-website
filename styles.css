@@ -10,10 +10,14 @@
   color: rgba(255, 255, 255, 0.9);
 }
 
+section {
+  scroll-margin-top: 120px;
+}
+
 .top-section {
   margin-top: 120px;
 }
 
 .profile-image {
-  border-radius: 217px;
+  border-radius: 200px;
 }
