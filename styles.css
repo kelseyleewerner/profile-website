@@ -1,5 +1,9 @@
+:root {
+  --primary-color: #6667ab;
+}
+
 .primary-navbar {
-  background-color: #6667ab;
+  background-color: var(--primary-color);
 }
 
 .primary-navbar .navbar-brand {
@@ -23,5 +27,5 @@
 }
 
 .skills-card {
-  background-color: #6667ab;
+  background-color: var(--primary-color);
 }
