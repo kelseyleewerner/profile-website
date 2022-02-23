@@ -651,11 +651,70 @@
         </div>
       </section>
       <section id="contactMeSection" class="row mb-5 profile-section">
-        <h1 class="display-5 fw-bold mb-5">&#9742;&#65039; contact me</h1>
-        <p>
-          Want to collaborate? Fill out the form below to get in touch, and I'll
-          follow up with you as soon as I can
-        </p>
+        <h1 class="display-5 fw-bold mb-4">&#9742;&#65039; contact me</h1>
+        <legend class="mb-4">
+          want to collaborate? fill out the form below to get in touch, and i'll
+          follow up with you as soon as i can.
+        </legend>
+        <form action="" class="container">
+          <div class="row mb-4">
+            <div class="col-12 col-md-6">
+              <label for="contactName" class="form-label">name:</label>
+              <input
+                id="contactName"
+                name="contactName"
+                type="text"
+                class="form-control"
+                placeholder="what should i call you?"
+                aria-label="Contact name"
+              />
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="contactEmail" class="form-label"
+                >email address:</label
+              >
+              <input
+                id="contactEmail"
+                name="contactEmail"
+                type="email"
+                class="form-control"
+                placeholder="where can i reach you?"
+                aria-label="Email address"
+              />
+            </div>
+          </div>
+          <div class="row mb-4 mb-md-5">
+            <div class="col">
+              <label for="contactMessage" class="form-label">message:</label>
+              <textarea
+                id="contactMessage"
+                name="contactMessage"
+                class="form-control"
+                placeholder="what's up?"
+                aria-label="Contact message body"
+                rows="4"
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6 mb-3 mb-md-0">
+              <input
+                type="submit"
+                value="Submit"
+                name="submit"
+                class="btn btn-primary w-100"
+              />
+            </div>
+            <div class="col-12 col-md-6">
+              <input
+                type="reset"
+                value="Reset"
+                name="reset"
+                class="btn btn-outline-secondary w-100"
+              />
+            </div>
+          </div>
+        </form>
       </section>
       <div class="row">psst! come say hi to me on linkedin</div>
     </main>
