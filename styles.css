@@ -1,6 +1,8 @@
 :root {
   --primary-color: #6667ab;
   --primary-color-dark: #4d4e92;
+  --white: #fff;
+  --black: #000;
 }
 
 .primary-navbar {
@@ -32,8 +34,8 @@
 }
 
 .experience-item-button:not(.collapsed) {
-  color: #000;
-  background-color: #fff;
+  color: var(--black);
+  background-color: var(--white);
 }
 
 .experience-item-button:not(.collapsed)::after {
@@ -42,7 +44,7 @@
 
 .experience-item-button:focus {
   border-color: var(--primary-color);
-  box-shadow: 0 0 0 0 rgb(255, 255, 255);
+  box-shadow: 0 0 0 0 var(--white);
 }
 
 .experience-item:last-of-type .experience-item-button.collapsed {
@@ -51,13 +53,13 @@
 }
 
 .submit-contact-button {
-  color: #fff;
+  color: var(--white);
   background-color: var(--primary-color);
   border-color: var(--primary-color);
 }
 
 .submit-contact-button:hover {
-  color: #fff;
+  color: var(--white);
   background-color: var(--primary-color-dark);
   border-color: var(--primary-color-dark);
 }
@@ -68,7 +70,7 @@
 }
 
 .reset-contact-button:hover {
-  color: #fff;
+  color: var(--white);
   background-color: var(--primary-color);
   border-color: var(--primary-color);
 }
