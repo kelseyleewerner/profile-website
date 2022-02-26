@@ -1,5 +1,6 @@
 :root {
   --primary-color: #6667ab;
+  --primary-color-dark: #4d4e92;
 }
 
 .primary-navbar {
@@ -47,4 +48,27 @@
 .experience-item:last-of-type .experience-item-button.collapsed {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+.submit-contact-button {
+  color: #fff;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.submit-contact-button:hover {
+  color: #fff;
+  background-color: var(--primary-color-dark);
+  border-color: var(--primary-color-dark);
+}
+
+.reset-contact-button {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.reset-contact-button:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
 }
