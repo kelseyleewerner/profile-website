@@ -658,8 +658,8 @@
         </legend>
         <form action="" class="container">
           <div class="row mb-4">
-            <div class="col-12 col-md-6">
-              <label for="contactName" class="form-label">name:</label>
+            <div class="col-12 col-md-6 mb-4 mb-md-0">
+              <label for="contactName" class="form-label h5">name:</label>
               <input
                 id="contactName"
                 name="contactName"
@@ -667,10 +667,11 @@
                 class="form-control"
                 placeholder="what should i call you?"
                 aria-label="Contact name"
+                required
               />
             </div>
             <div class="col-12 col-md-6">
-              <label for="contactEmail" class="form-label"
+              <label for="contactEmail" class="form-label h5"
                 >email address:</label
               >
               <input
@@ -680,12 +681,13 @@
                 class="form-control"
                 placeholder="where can i reach you?"
                 aria-label="Email address"
+                required
               />
             </div>
           </div>
           <div class="row mb-4 mb-md-5">
             <div class="col">
-              <label for="contactMessage" class="form-label">message:</label>
+              <label for="contactMessage" class="form-label h5">message:</label>
               <textarea
                 id="contactMessage"
                 name="contactMessage"
@@ -693,6 +695,7 @@
                 placeholder="what's up?"
                 aria-label="Contact message body"
                 rows="4"
+                required
               ></textarea>
             </div>
           </div>
