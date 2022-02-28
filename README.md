@@ -17,7 +17,7 @@ Website is deployed at: PLACEHOLDER
 
 ## Getting Started
 
-After cloning the Git repo locally, using the command line navigate to the directory that contains the index.html file. From there, run the command below and the site will open in your default browser:
+After cloning this Git repo locally, using the command line navigate to the directory that contains the index.html file. From there, run the command below and the site will open in your default browser:
 
 ```
 open index.html
