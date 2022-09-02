@@ -1,0 +1,19 @@
+{
+  "name": "profile-website-backend",
+  "version": "1.0.0",
+  "description": "Backend service for kelseywerner.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelseyleewerner/profile-website.git"
+  },
+  "author": "Kelsey Werner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelseyleewerner/profile-website/issues"
+  },
+  "homepage": "https://github.com/kelseyleewerner/profile-website#readme"
+}
