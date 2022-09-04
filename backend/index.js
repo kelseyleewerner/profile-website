@@ -72,7 +72,7 @@ const requestHandler = function (req, res) {
       method: "POST",
       headers: {
         // TODO: replace api key with var!
-        Authorization: "Bearer APIKEYNEEDED",
+        Authorization: `Bearer ${process.env.SENDGRID_API_KEY}`,
         "Content-Type": "application/json",
         "Content-Length": contactFormData.length,
       },

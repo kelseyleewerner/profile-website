@@ -10,7 +10,7 @@ $(window).on("load", () => {
     formData[event.currentTarget[2].name] = event.currentTarget[2].value;
     formData = JSON.stringify(formData);
 
-    $.post("http://localhost:8000/contact_form", formData);
+    $.post("/contact_form", formData);
 
     $("#contactMeForm").trigger("reset");
   });
