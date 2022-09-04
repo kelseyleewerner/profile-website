@@ -4,7 +4,7 @@
 
 This is the source code for a profile website to highlight my professional bio, experience, education, a sample portfolio of work, and a contact form.
 
-Website is deployed at: https://kelseyleewerner.github.io/profile-website/
+Website is deployed at: https://kelseywerner.com/
 
 ## Built With
 
@@ -13,12 +13,6 @@ Website is deployed at: https://kelseyleewerner.github.io/profile-website/
 - [Bootstrap](https://getbootstrap.com/)
 - JavaScript
 - [jQuery](https://jquery.com/)
-- [EmailJS](https://www.emailjs.com/)
-
-## Getting Started
-
-After cloning this Git repo locally, using the command line navigate to the directory that contains the index.html file. From there, run the command below and the site will open in your default browser:
-
-```
-open index.html
-```
+- [SendGrid](https://sendgrid.com/)
+- [Node.js](https://nodejs.org/en/)
+- [NGINX](https://www.nginx.com/)
