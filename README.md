@@ -13,4 +13,6 @@ Website is deployed at: https://kelseyleewerner.github.io/profile-website/
 - [Bootstrap](https://getbootstrap.com/)
 - JavaScript
 - [jQuery](https://jquery.com/)
-- [EmailJS](https://www.emailjs.com/)
+- [SendGrid](https://sendgrid.com/)
+- [Node.js](https://nodejs.org/en/)
+- [NGINX](https://www.nginx.com/)
