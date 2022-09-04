@@ -71,7 +71,6 @@ const requestHandler = function (req, res) {
       path: "/v3/mail/send",
       method: "POST",
       headers: {
-        // TODO: replace api key with var!
         Authorization: `Bearer ${process.env.SENDGRID_API_KEY}`,
         "Content-Type": "application/json",
         "Content-Length": contactFormData.length,
