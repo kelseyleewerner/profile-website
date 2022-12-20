@@ -2,8 +2,6 @@ $(window).on("load", () => {
   $("#contactMeForm").on("submit", (event) => {
     event.preventDefault();
 
-    // TODO: will need to change url and update nginx
-    // TODO: make sure i dont get cross origin console error
     let formData = {};
     formData[event.currentTarget[0].name] = event.currentTarget[0].value;
     formData[event.currentTarget[1].name] = event.currentTarget[1].value;
@@ -13,5 +11,15 @@ $(window).on("load", () => {
     $.post("/contact_form", formData);
 
     $("#contactMeForm").trigger("reset");
+  });
+
+  $("#primaryProfileImage").on("click", () => {
+    profile_img = $("#primaryProfileImage");
+
+    if (profile_img.attr("src") === "images/profile_picture1.JPG") {
+      profile_img.attr("src", "images/profile_picture2.JPG");
+    } else {
+      profile_img.attr("src", "images/profile_picture1.JPG");
+    }
   });
 });
