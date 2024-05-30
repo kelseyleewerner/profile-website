@@ -724,54 +724,33 @@
         <h1 class="display-5 fw-bold mb-5">&#128190; portfolio</h1>
         <div class="col-12">
           <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-9 col-sm-6 mb-3">
+            <div class="col-9 col-sm-6 col-lg-4 mb-3">
               <div class="card bg-light border-0 text-center">
                 <div class="card-body">
                   <a
-                    href="https://github.com/kelseyleewerner/irc_protocol_implementation"
+                    href="https://github.com/kelseyleewerner/bus_data_producers"
                   >
                     <img
-                      src="images/chat_icon.svg"
-                      alt="three people holding chat bubbles"
-                      title="custom irc protocol"
+                      src="images/bus_icon.svg"
+                      alt="two travelers holding luggage and a map"
+                      title="data pipeline"
                       class="img-fluid"
                     />
                   </a>
-                  <h2 class="card-title text-dark my-3">custom irc protocol</h2>
+                  <h2 class="card-title text-dark my-3">
+                    public transport data pipeline
+                  </h2>
                   <p class="card-text text-body">
-                    I composed an RFC document outlining an app layer protocol
-                    over a TCP connection for a simplified version of an IRC
-                    chat app. I created a Python 3 client and server
-                    implemention of this protocol that can be run in the system
-                    console.
+                    Kafka data pipeline that collects bus route data gathered
+                    from multiple sources including an HTML page using Beautiful
+                    Soup. Data is transformed with pandas and NumPy then stored
+                    in PostgreSQL. Both the producer and consumer run on Google
+                    Cloud Compute Engine.
                   </p>
                 </div>
               </div>
             </div>
-            <div class="col-9 col-sm-6 mb-3">
-              <div class="card bg-light border-0 text-center">
-                <div class="card-body">
-                  <a href="https://github.com/kelseyleewerner/covid_db_imports">
-                    <img
-                      src="images/data_icon.svg"
-                      alt="person collecting data and putting it in a box"
-                      title="covid database"
-                      class="img-fluid"
-                    />
-                  </a>
-                  <h2 class="card-title text-dark my-3">covid database</h2>
-                  <p class="card-text text-body">
-                    I collected data sets on a sample of countries. This
-                    included COVID-related data and data points that are
-                    indicators of economic security and trust in authority. I
-                    designed a database schema, wrote Python 3 scripts to format
-                    the raw data sets, and then used SQL to create and query a
-                    Postgres database.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-9 col-sm-6 mb-3 mb-md-0">
+            <div class="col-9 col-sm-6 col-lg-4 mb-3">
               <div class="card bg-light border-0 text-center">
                 <div class="card-body">
                   <a href="https://final-yjw6ntnfdq-uw.a.run.app/">
@@ -795,7 +774,54 @@
                 </div>
               </div>
             </div>
-            <div class="col-9 col-sm-6 mb-md-0">
+            <div class="col-9 col-sm-6 col-lg-4 mb-3">
+              <div class="card bg-light border-0 text-center">
+                <div class="card-body">
+                  <a
+                    href="https://github.com/kelseyleewerner/irc_protocol_implementation"
+                  >
+                    <img
+                      src="images/chat_icon.svg"
+                      alt="three people holding chat bubbles"
+                      title="custom irc protocol"
+                      class="img-fluid"
+                    />
+                  </a>
+                  <h2 class="card-title text-dark my-3">custom irc protocol</h2>
+                  <p class="card-text text-body">
+                    I composed an RFC document outlining an app layer protocol
+                    over a TCP connection for a simplified version of an IRC
+                    chat app. I created a Python client and server
+                    implemention of this protocol that can be run in the system
+                    console.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-9 col-sm-6 col-lg-4 mb-3">
+              <div class="card bg-light border-0 text-center">
+                <div class="card-body">
+                  <a href="https://github.com/kelseyleewerner/covid_db_imports">
+                    <img
+                      src="images/data_icon.svg"
+                      alt="person collecting data and putting it in a box"
+                      title="covid database"
+                      class="img-fluid"
+                    />
+                  </a>
+                  <h2 class="card-title text-dark my-3">covid database</h2>
+                  <p class="card-text text-body">
+                    I collected data sets on a sample of countries. This
+                    included COVID-related data and data points that are
+                    indicators of economic security and trust in authority. I
+                    designed a database schema, wrote Python scripts to format
+                    the raw data sets, and then used SQL to create and query a
+                    Postgres database.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-9 col-sm-6 col-lg-4 mb-md-0">
               <div class="card bg-light border-0 text-center">
                 <div class="card-body">
                   <a href="https://github.com/kelseyleewerner">
