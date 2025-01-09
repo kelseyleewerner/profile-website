@@ -16,3 +16,4 @@ Website is deployed at: https://kelseywerner.com/
 - [SendGrid](https://sendgrid.com/)
 - [Node.js](https://nodejs.org/en/)
 - [NGINX](https://www.nginx.com/)
+- Google Cloud Platform
