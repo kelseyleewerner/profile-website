@@ -2,7 +2,7 @@
 
 ## Description
 
-This is the source code for a profile website to highlight my professional bio, experience, education, a sample portfolio of work, and a contact form.
+This is the source code for a profile website to highlight my professional bio, experience, education, and a sample portfolio of work.
 
 Website is deployed at: https://kelseywerner.com/
 
@@ -13,7 +13,5 @@ Website is deployed at: https://kelseywerner.com/
 - [Bootstrap](https://getbootstrap.com/)
 - JavaScript
 - [jQuery](https://jquery.com/)
-- [SendGrid](https://sendgrid.com/)
-- [Node.js](https://nodejs.org/en/)
 - [NGINX](https://www.nginx.com/)
 - Google Cloud Platform

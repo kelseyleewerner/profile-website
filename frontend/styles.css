@@ -52,25 +52,24 @@
   border-bottom-left-radius: 0;
 }
 
-.submit-contact-button {
+.contact-link {
   color: var(--white);
   background-color: var(--primary-color);
-  border-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 0.375rem;
+  padding: 0.75rem 1.25rem;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
-.submit-contact-button:hover {
+.contact-link:hover {
   color: var(--white);
   background-color: var(--primary-color-dark);
   border-color: var(--primary-color-dark);
 }
 
-.reset-contact-button {
-  color: var(--primary-color);
-  border-color: var(--primary-color);
-}
-
-.reset-contact-button:hover {
-  color: var(--white);
-  background-color: var(--primary-color);
-  border-color: var(--primary-color);
+.contact-link-icon {
+  height: 1.5rem;
+  width: auto;
 }
